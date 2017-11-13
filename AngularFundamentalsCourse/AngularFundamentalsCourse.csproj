@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\ng2-fundamentals\.git\config" />
+    <None Include="wwwroot\ng2-fundamentals\.git\description" />
+    <None Include="wwwroot\ng2-fundamentals\.git\HEAD" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\hooks\update.sample" />
+    <None Include="wwwroot\ng2-fundamentals\.git\index" />
+    <None Include="wwwroot\ng2-fundamentals\.git\info\exclude" />
+    <None Include="wwwroot\ng2-fundamentals\.git\logs\HEAD" />
+    <None Include="wwwroot\ng2-fundamentals\.git\logs\refs\heads\master" />
+    <None Include="wwwroot\ng2-fundamentals\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="wwwroot\ng2-fundamentals\.git\objects\pack\pack-be993314290cd4c4cc47b384f10b6ce39d9444a1.idx" />
+    <None Include="wwwroot\ng2-fundamentals\.git\objects\pack\pack-be993314290cd4c4cc47b384f10b6ce39d9444a1.pack" />
+    <None Include="wwwroot\ng2-fundamentals\.git\packed-refs" />
+    <None Include="wwwroot\ng2-fundamentals\.git\refs\heads\master" />
+    <None Include="wwwroot\ng2-fundamentals\.git\refs\remotes\origin\HEAD" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\ng2-fundamentals\.git\objects\info\" />
+    <Folder Include="wwwroot\ng2-fundamentals\.git\refs\tags\" />
+  </ItemGroup>
+
+</Project>
